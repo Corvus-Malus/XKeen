@@ -1058,11 +1058,10 @@ exec /opt/etc/init.d/S51dropbear restart
 
 ---
 
-Полное руководство смотреть тут:
-
-https://xskrill.notion.site/XKeen-c9f0f2a5018743b59eb81bd6fccdf25a
-
-https://forum.keenetic.com/topic/16899-xkeen/
+* [Инструкция](https://xskrill.notion.site/XKeen-c9f0f2a5018743b59eb81bd6fccdf25a) | От автора XKeen | Для продвинутой настройки
+* [Инструкция ядра](https://xtls.github.io/ru/config/features/multiple.html#пример-конфигурации) | В переводе от Nikita Korotaev
+* [Project VLESS](https://t.me/projectVless) | Русскоязычный чат
+* https://forum.keenetic.com/topic/16899-xkeen/
 
 <br>
 
