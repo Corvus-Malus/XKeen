@@ -515,9 +515,9 @@ system configuration save
 
 Нас интересуют только 3 файла: `03_inbounds.json`, `04_outbounds.json` и `05_routing.json`
 
-* **03_inbounds.json**: https://disk.yandex.ru/d/L0kYMAf58L-Okw
+* **03_inbounds.json**: https://github.com/Corvus-Malus/XKeen/releases/latest/download/03_inbounds.json
 
-* **04_outbounds.json**: https://disk.yandex.ru/d/cQUIKtDX3gbShw
+* **04_outbounds.json**: https://github.com/Corvus-Malus/XKeen/releases/latest/download/04_outbounds.json
 
 <br>
 
@@ -531,7 +531,7 @@ system configuration save
 
 или
 
-* **05_routing.json**: https://disk.yandex.ru/d/K4t3KBevCTlrzg
+* **05_routing.json**: https://github.com/Corvus-Malus/XKeen-docs/releases/latest/download/05_routing.json
 
 > Прямое подключение используется для доменов в зоне .ru, .su, .рф и других, а также для торрентов.
 > 
@@ -899,7 +899,7 @@ exec /opt/etc/init.d/S51dropbear restart
 
 <br>
 
-### Используйте этот бинарный файл [xray](https://github.com/Corvus-Malus/XKeen-docs/releases/latest/download/xray), если у вас:
+### Используйте этот бинарный файл [xray](https://github.com/Corvus-Malus/XKeen-docs/releases/download/24.09.15/xray), если у вас:
 
 * Keenetic Skipper 4G (KN-2910)
 * Keenetic 4G (KN-1212)
