@@ -899,7 +899,7 @@ exec /opt/etc/init.d/S51dropbear restart
 
 <br>
 
-### [Используйте этот бинарный файл xray, если у вас](https://github.com/Corvus-Malus/XKeen-docs/releases/latest/download/xray)
+### Используйте этот бинарный файл [xray](https://github.com/Corvus-Malus/XKeen-docs/releases/latest/download/xray), если у вас:
 
 * Keenetic Skipper 4G (KN-2910)
 * Keenetic 4G (KN-1212)
