@@ -113,6 +113,8 @@
 >
 > Для моделей Peak (KN-2710), Ultra (KN-1811) используйте архив **aarch64** — [aarch64-installer.tar.gz](https://bin.entware.net/aarch64-k3.10/installer/aarch64-installer.tar.gz)
 
+[^1]:  [Используйте этот бинарный файл xray](#используйте-этот-бинарный-файл-xray-если-у-вас)
+
 <br>
 
 4. В нашем примере рассмотрим установку архива **mipsel**.
@@ -897,7 +899,6 @@ exec /opt/etc/init.d/S51dropbear restart
 
 <br>
 
-[^1]:
 ### [Используйте этот бинарный файл xray, если у вас](https://github.com/Corvus-Malus/XKeen-docs/releases/latest/download/xray)
 
 * Keenetic Skipper 4G (KN-2910)
