@@ -107,7 +107,7 @@
 3. Теперь нужно установить репозиторий системы пакетов [Entware](https://forum.keenetic.net/topic/4299-entware/).
 
 > [!NOTE]
-> **Справка**: Для моделей 4G (KN-1212), Omni (KN-1410), Extra (KN-1710/1711/1713), Giga (KN-1010/1011), Ultra (KN-1810), Viva (KN-1910/1912), Giant (KN-2610), Hero 4G (KN-2310), Hopper (KN-3810) и Zyxel Keenetic II / III, Extra, Extra II, Giga II / III, Omni, Omni II, Viva, Ultra, Ultra II используйте для установки архив **mipsel** — [mipsel-installer.tar.gz](https://bin.entware.net/mipselsf-k3.4/installer/mipsel-installer.tar.gz)
+> **Справка**: Для моделей 4G (KN-1212)[^1], Omni (KN-1410), Extra (KN-1710/1711/1713), Giga (KN-1010/1011), Ultra (KN-1810), Viva (KN-1910/1912), Giant (KN-2610), Hero 4G (KN-2310), Hopper (KN-3810) и Zyxel Keenetic II / III, Extra, Extra II, Giga II / III, Omni, Omni II, Viva, Ultra, Ultra II используйте для установки архив **mipsel** — [mipsel-installer.tar.gz](https://bin.entware.net/mipselsf-k3.4/installer/mipsel-installer.tar.gz)
 >
 > Для моделей Ultra SE (KN-2510), Giga SE (KN-2410), DSL (KN-2010), Duo (KN-2110), Ultra SE (KN-2510), Hopper DSL (KN-3610) и Zyxel Keenetic DSL, LTE, VOX используйте для установки архив **mips** — [mips-installer.tar.gz](https://bin.entware.net/mipssf-k3.4/installer/mips-installer.tar.gz)
 >
@@ -896,6 +896,25 @@ exec /opt/etc/init.d/S51dropbear restart
 </p>
 
 <br>
+
+[^1]:
+### [Используйте этот бинарный файл xray, если у вас](https://github.com/Corvus-Malus/XKeen-docs/releases/latest/download/xray)
+
+* Keenetic Skipper 4G (KN-2910)
+* Keenetic 4G (KN-1212)
+
+1. Заменить файл **xray** в папке **sbin**.
+2. Установите для него права **755**:
+
+```
+chmod 755 /opt/sbin/xray
+```
+
+3. Запустите xkeen командой:
+
+```
+xkeen -start
+```
 
 ### [AdGuard Home Keenetic для прошивки 4.2 beta 3](https://telegra.ph/AdGuard-Home-Keenetic-09-07)
 
