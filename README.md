@@ -946,6 +946,38 @@ xkeen -start
 
 <br>
 
+### Как отключить двухсторонний пинг в Linux
+
+**Отключение двухстороннего пинга:**
+
+1. Чтобы отключить двухсторонний пинг, выполните следующую команду:
+
+```bash
+echo "net.ipv4.icmp_echo_ignore_all=1" | sudo tee -a /etc/sysctl.conf && echo "net.ipv4.icmp_echo_ignore_broadcasts=1" | sudo tee -a /etc/sysctl.conf
+```
+
+2. Примените изменения командой:
+
+```bash
+sudo sysctl -p
+```
+
+**Включение двухстороннего пинга:**
+
+1. Чтобы вернуть пинг обратно, выполните следующую команду:
+
+```bash
+echo "net.ipv4.icmp_echo_ignore_all=0" | sudo tee -a /etc/sysctl.conf && echo "net.ipv4.icmp_echo_ignore_broadcasts=0" | sudo tee -a /etc/sysctl.conf
+```
+
+2. Снова примените изменения:
+
+```bash
+sudo sysctl -p
+```
+
+<br>
+
 ### [AdGuard Home Keenetic для прошивки 4.2 beta 3](https://telegra.ph/AdGuard-Home-Keenetic-09-07)
 
 > ***AdGuard Home** – это DNS-сервер, блокирующий рекламу и трекинг. Его цель – дать вам возможность контролировать всю вашу сеть и все подключённые устройства. Он не требует установки клиентских программ.*
