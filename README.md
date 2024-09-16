@@ -891,7 +891,7 @@ exec /opt/etc/init.d/S51dropbear restart
 <p align="center">
   <a href="http://192.168.1.1/firewall/Bridge0" target="_blank" rel="noopener noreferrer">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://github.com/Corvus-Malus/XKeen-docs/raw/main/images/Dark/Keenetic-Bridge0-Dark.png">
+      <source media="(prefers-color-scheme: dark)" srcset="https://github.com/Corvus-Malus/XKeen-docs/raw/main/images/Dark/Keenetic-Bridge0-Dark.jpg">
       <img width="100%" height="100%" src="https://github.com/Corvus-Malus/XKeen-docs/raw/main/images/Light/Keenetic-Bridge0-Light.png">
     </picture>
   </a>
