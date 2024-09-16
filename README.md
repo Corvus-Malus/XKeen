@@ -940,7 +940,9 @@ xkeen -start
     </picture>
 </p>
 
-* Убедитесь, что интерфейс отображает сообщение об успешной активации BBR: `BBR has been enabled successfully.`
+* Убедитесь, что интерфейс отображает сообщение об успешной активации BBR:
+
+`BBR has been enabled successfully.`
 
 <br>
 
