@@ -794,7 +794,7 @@ END
 1. **Протокол IPv6**
 2. **Модули ядра подсистемы Netfilter**
 
-<br>
+<br><br>
 
 ### Настройка автоматического обновления файлов geosite_zkeen.dat и geoip_zkeenip.dat
 
@@ -847,7 +847,7 @@ crontab -e
 crontab -l
 ```
 
-<br>
+<br><br>
 
 ### Решение проблем с маршрутизацией при использовании нескольких туннелей
 
@@ -869,7 +869,7 @@ xkeen -restart
 
 Теперь ваш сервер должен корректно работать с несколькими туннелями без конфликтов в маршрутизации.
 
-<br>
+<br><br>
 
 ### Исправление проблемы с быстрым обрывом соединений по SSH
 
@@ -877,7 +877,7 @@ xkeen -restart
 
 > *В качестве альтернативного решения добавьте IP-адрес сервера в исключения маршрутизации (см. раздел "Решение проблем с маршрутизацией при использовании нескольких туннелей").*
 
-<br>
+<br><br>
 
 ### Исправление проблемы с SSH доступом на Keenetic после установки Entware
 
@@ -895,7 +895,7 @@ exec sh
 exec /opt/etc/init.d/S51dropbear restart
 ```
 
-<br>
+<br><br>
 
 ### [Возможные решения проблем с доступом к ChatGPT и другим сайтам](https://telegra.ph/QUIC-Enabled---Disabled-08-26)
 
@@ -908,7 +908,7 @@ exec /opt/etc/init.d/S51dropbear restart
   </a>
 </p>
 
-<br>
+<br><br>
 
 ### Используйте этот бинарный файл [xray](https://github.com/Corvus-Malus/XKeen-docs/releases/download/24.09.15/xray), если у вас:
 
@@ -927,7 +927,7 @@ chmod 755 /opt/sbin/xray
 ```
 xkeen -start
 ```
-<br>
+<br><br>
 
 ### Настройка BBR через 3X-UI Panel Management Script
 
@@ -955,7 +955,7 @@ xkeen -start
 
 `BBR has been enabled successfully.`
 
-<br>
+<br><br>
 
 ### Как отключить двухсторонний пинг в Linux
 
@@ -987,7 +987,7 @@ echo "net.ipv4.icmp_echo_ignore_all=0" | sudo tee -a /etc/sysctl.conf && echo "n
 sudo sysctl -p
 ```
 
-<br>
+<br><br>
 
 ### [AdGuard Home Keenetic для прошивки 4.2 beta 3](https://telegra.ph/AdGuard-Home-Keenetic-09-07)
 
