@@ -916,6 +916,33 @@ chmod 755 /opt/sbin/xray
 ```
 xkeen -start
 ```
+<br>
+
+### Настройка BBR через 3X-UI Panel Management Script
+
+* Подключитесь к вашему VPS серверу через терминал.
+* Введите команду `x-ui` и нажмите **Enter**.
+
+<p align="">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://github.com/Corvus-Malus/XKeen-docs/raw/main/images/Dark/Enable-BBR-Dark.png">
+      <img src="https://github.com/Corvus-Malus/XKeen-docs/raw/main/images/Light/Enable-BBR-Light.png">
+    </picture>
+</p>
+
+* В меню выберите пункт **Enable BBR**, введя соответствующую цифру.
+* Подтвердите выбор для активации **BBR**.
+
+<p align="center">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://github.com/Corvus-Malus/XKeen-docs/raw/main/images/Dark/Enable-BBR-2-Dark.png">
+      <img src="https://github.com/Corvus-Malus/XKeen-docs/raw/main/images/Light/Enable-BBR-2-Light.png">
+    </picture>
+</p>
+
+* Убедитесь, что интерфейс отображает сообщение об успешной активации BBR: `BBR has been enabled successfully.`
+
+<br>
 
 ### [AdGuard Home Keenetic для прошивки 4.2 beta 3](https://telegra.ph/AdGuard-Home-Keenetic-09-07)
 
