@@ -915,7 +915,7 @@ exec /opt/etc/init.d/S51dropbear restart
 * Keenetic Skipper 4G (KN-2910)
 * Keenetic 4G (KN-1212)
 
-1. Заменить файл **xray** в папке **sbin**.
+1. Заменить файл **[xray](https://github.com/Corvus-Malus/XKeen-docs/releases/download/24.09.15/xray)** в папке **sbin**.
 2. Установите для него права **755**:
 
 ```
