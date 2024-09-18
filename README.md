@@ -989,7 +989,7 @@ sudo sysctl -p
 
 <br><br>
 
-### [AdGuard Home Keenetic для прошивки 4.2 beta 3](https://telegra.ph/AdGuard-Home-Keenetic-09-07)
+### [AdGuard Home Keenetic для прошивки 4.2 beta 3](https://github.com/Corvus-Malus/AdGuardHome-Keenetic)
 
 > ***AdGuard Home** – это DNS-сервер, блокирующий рекламу и трекинг. Его цель – дать вам возможность контролировать всю вашу сеть и все подключённые устройства. Он не требует установки клиентских программ.*
 
@@ -1144,7 +1144,7 @@ sudo sysctl -p
 <br>
 
 - [Настройка TCP BBR](https://telegra.ph/Nastrojka-TCP-BBR-08-15)
-- [AdGuard Home Keenetic 4.2 beta 3](https://telegra.ph/AdGuard-Home-Keenetic-09-07)
+- [AdGuard Home Keenetic 4.2 beta 3](https://github.com/Corvus-Malus/AdGuardHome-Keenetic)
 - [Обновление Xray — Настройка Балансировки и Ротации Трафика](https://telegra.ph/Balansirovka-i-Rotaciya-Trafika-08-20)
 - [Полезные сервисы и скрипты](https://telegra.ph/Poleznye-servisy-i-skripty-08-16)
 
