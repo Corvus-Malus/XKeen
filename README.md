@@ -921,7 +921,7 @@ chmod +x install_xray.sh
 
 **Восстановление оригинального файла xray**
 
-1. Выполните скрипт с параметром recover:
+1. Выполните скрипт с параметром **recover**:
 
 ```sh
 ./install_xray.sh recover
