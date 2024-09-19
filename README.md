@@ -916,7 +916,7 @@ chmod +x install_xray.sh
 3. Выполните скрипт с параметром **install** для обновления:
 
 ```sh
-./install_xray.sh install
+./install_xray.sh update
 ```
 
 <br>
@@ -931,9 +931,11 @@ chmod +x install_xray.sh
 
 **Команды**
 
-`./install_xray.sh {install|recover|help} [version]`
+`./install_xray.sh {command}`
 
-> `[version]` - Опциональный параметр. Номер версии Xray для установки (например, 1.8.4). Если версия не указана, будет загружена последняя доступная версия.
+* `update|-u [version]` - Обновить Xray. Если версия не указана, будет выполнено обновление до последней доступной версии.
+* `recover|-r`          - Восстановить Xray из резервной копии.
+* `help|-h `            - Показать это сообщение.
 
 <br><br>
 
