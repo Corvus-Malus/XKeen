@@ -904,7 +904,7 @@ exec /opt/etc/init.d/S51dropbear restart
 1. Выполните команду, чтобы скачать скрипт установки:
 
 ```sh
-curl -L -O https://github.com/Corvus-Malus/XKeen-docs/raw/main/Installer/install_xray.sh
+curl -s -S -L -O https://github.com/Corvus-Malus/XKeen-docs/raw/main/Installer/install_xray.sh
 ```
 
 2. Сделайте скрипт исполняемым:
