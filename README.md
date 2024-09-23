@@ -55,7 +55,7 @@
 
 1. Подключите жесткий диск к ПК и подготовьте его разделы. Для работы менеджера пакетов OPKG диск должен быть отформатирован в файловой системе **EXT4**.
 
-Отформатировать можно воспользоваться бесплатной версией программы **Paragon Partition Manager Free** или **AOMEI Partition Assistant Standard Edition**.
+Отформатировать можно воспользоваться бесплатной версией программы **Paragon Partition Manager Free** или **[AOMEI Partition Assistant Standard Edition](https://www.aomeitech.com/pa/standard.html)**.
 
 Приведем пример форматирования накопителя в **Paragon Partition Manager Free**:
 
