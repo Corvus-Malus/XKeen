@@ -741,6 +741,16 @@ xkeen -start
   </a>
 </p>
 
+# Настройка DNS-over-TLS и DNS-over-HTTPS
+
+_Примечание:_
+Если при добавлении сервера в настройках невозможно выбрать тип DNS-over-TLS и DNS-over-HTTP, то нужно установить дополнительные пакеты:
+1. Прокси-сервер DNS-over-TLS
+2. Прокси-сервер DNS-over-HTTPS
+
+![Screenshot 2024-10-04 111527](https://github.com/user-attachments/assets/d45704a4-58a2-4c5d-a0e0-d5ce402c5f16)
+
+
 ### [Прокси-серверы DNS-over-TLS и DNS-over-HTTPS для шифрования DNS-запросов](https://telegra.ph/DoT-DoH-08-12)
 
 * Quad9 DOT: `9.9.9.9` `dns.quad9.net`; `149.112.112.112` `dns.quad9.net`
