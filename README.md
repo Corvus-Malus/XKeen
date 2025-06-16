@@ -516,7 +516,7 @@ opkg upgrade
 > Выполнять от пользователя root
 
 ```bash
-opkg install curl
+opkg install curl tar
 ```
 
 ```bash
