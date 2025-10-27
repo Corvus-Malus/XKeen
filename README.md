@@ -912,7 +912,7 @@ system configuration save
 <p align="center">
   <a href="http://192.168.1.1/policies/interface-priorities" target="_blank" rel="noopener noreferrer">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://github.com/Corvus-Malus/XKeen-docs/raw/main/images/Dark/04-outbounds-Dark.pngg">
+      <source media="(prefers-color-scheme: dark)" srcset="https://github.com/Corvus-Malus/XKeen-docs/raw/main/images/Dark/04-outbounds-Dark.png">
       <img src="https://github.com/Corvus-Malus/XKeen-docs/raw/main/images/Dark/04-outbounds-Dark.png">
     </picture>
   </a>
