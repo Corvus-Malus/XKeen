@@ -166,6 +166,40 @@ https://support.keenetic.ru/eaeu/ultra/kn-1811/ru/20978-preparing-a-usb-drive-as
 <details>
 <summary>Как отформатировать USB накопитель под macOS</summary>
 
+### Автоматическая подготовка (SWAP + EXT4) одной командой
+
+Для пользователей macOS доступен инструмент **[Keenetic Entware Flash](https://github.com/MaxXxaM/keenetic-entware-flash)**, который автоматически создаёт правильную разметку USB-накопителя: **SWAP-раздел** + **EXT4** с установщиком Entware — одной командой.
+
+Работает через Docker или нативно на macOS:
+
+**С Docker:**
+```bash
+git clone https://github.com/MaxXxaM/keenetic-entware-flash.git
+cd keenetic-entware-flash
+sudo ./run.sh
+```
+
+**Без Docker (нативно):**
+```bash
+brew install e2fsprogs
+diskutil list external physical
+
+# Замените disk4 на ваш диск
+sudo diskutil partitionDisk /dev/disk4 MBRFormat \
+  "MS-DOS FAT32" "SWAP" 1024M \
+  "MS-DOS FAT32" "OPKG" R
+
+diskutil unmountDisk /dev/disk4
+sudo $(brew --prefix e2fsprogs)/sbin/mkfs.ext4 -O ^metadata_csum -L OPKG -F /dev/disk4s2
+diskutil eject /dev/disk4
+```
+
+> SWAP-раздел будет автоматически инициализирован роутером. Entware скачается при включении компонента OPKG.
+
+---
+
+### Ручная подготовка (только EXT4, без SWAP)
+
 **1) Установка Homebrew**
 
 >*Если менеджер пакетов установлен, можете пропустить этот пункт и перейти к следующему.*
