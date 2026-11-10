@@ -551,10 +551,6 @@ passwd
 opkg update
 ```
 
-```bash
-opkg upgrade
-```
-
 <p align="left">
   <a href="root@192.168.111.1" target="_blank" rel="noopener noreferrer">
     <picture>
@@ -662,14 +658,14 @@ opkg upgrade
 > Выполнять от пользователя root
 
 ```bash
-opkg update && opkg upgrade && opkg install curl tar && cd /tmp
+opkg update && opkg install curl tar && cd /tmp
 sh -c "$(curl -sSL https://raw.githubusercontent.com/jameszeroX/XKeen/main/install.sh)"
 ```
 
 либо:
 
 ```bash
-opkg update && opkg upgrade && opkg install curl tar && cd /tmp
+opkg update && opkg install curl tar && cd /tmp
 sh -c "$(curl -sSL https://cdn.jsdelivr.net/gh/jameszeroX/XKeen@main/install.sh)"
 ```
 
@@ -684,7 +680,7 @@ sh -c "$(curl -sSL https://cdn.jsdelivr.net/gh/jameszeroX/XKeen@main/install.sh)
 > Выполнять от пользователя root
 
 ```bash
-opkg update && opkg upgrade && opkg install curl tar && cd /tmp
+opkg update && opkg install curl tar && cd /tmp
 url="https://github.com/jameszeroX/XKeen/releases/latest/download/xkeen.tar.gz"
 curl -OL --connect-timeout 10 -m 60 "$url"
 tar -xvzf xkeen.tar.gz -C /opt/sbin > /dev/null && rm xkeen.tar.gz
