@@ -151,7 +151,56 @@
 
 1. Подключите жесткий диск к ПК и подготовьте его разделы. Для работы менеджера пакетов OPKG диск должен быть отформатирован в файловой системе **EXT4**.
 
-Отформатировать можно воспользоваться бесплатной версией программы **Paragon Partition Manager Free** или **[AOMEI Partition Assistant Standard Edition](https://www.aomeitech.com/pa/standard.html)**.
+Начиная с версии ОС **5.1** в веб-конфигураторе интернет-центра была добавлена новая страница **Накопители и устройства** для управления подключенными USB-устройствами и накопителями, включая форматирование, проверку, отключение и безопасное извлечение.
+
+Чтобы воспользоваться форматированием и проверкой подключенного накопителя, в интернет-центре Netcraze/Keenetic нужно установить соответствующие компоненты **Утилиты для файловой системы**. Доступны утилиты для файловых систем NTFS, FAT32, HFS+, exFAT и EXT4.
+
+Подключитесь к веб-конфигуратору интернет-центра, перейдите в меню **Управление** и на странице **Настройки системы** в разделе **Обновления и компоненты NDMS** нажмите **Изменить набор компонентов**. Установите компоненты, необходимые для работы с файловыми системами, используемыми на ваших USB-накопителях. В данном случае нам потребуется компонент для файловой системы **EXT4**.
+
+
+<p align="center">
+  <a href="http://192.168.1.1/apps/device/Media0" target="_blank" rel="noopener noreferrer">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://github.com/Corvus-Malus/XKeen-docs/raw/main/images/Dark/ext4_1.png">
+      <img width="100%" height="100%" src="https://github.com/Corvus-Malus/XKeen-docs/raw/main/images/Light/ext4_1.png">
+    </picture>
+  </a>
+</p>
+
+<p align="center">
+  <a href="http://192.168.1.1/apps/device/Media0" target="_blank" rel="noopener noreferrer">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://github.com/Corvus-Malus/XKeen-docs/raw/main/images/Dark/ext4_2.png">
+      <img width="100%" height="100%" src="https://github.com/Corvus-Malus/XKeen-docs/raw/main/images/Light/ext4_2.png">
+    </picture>
+  </a>
+</p>
+
+<p align="center">
+  <a href="http://192.168.1.1/apps/device/Media0" target="_blank" rel="noopener noreferrer">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://github.com/Corvus-Malus/XKeen-docs/raw/main/images/Dark/ext4_3.png">
+      <img width="100%" height="100%" src="https://github.com/Corvus-Malus/XKeen-docs/raw/main/images/Light/ext4_3.png">
+    </picture>
+  </a>
+</p>
+
+<p align="center">
+  <a href="http://192.168.1.1/apps/device/Media0" target="_blank" rel="noopener noreferrer">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://github.com/Corvus-Malus/XKeen-docs/raw/main/images/Dark/ext4_4.png">
+      <img width="100%" height="100%" src="https://github.com/Corvus-Malus/XKeen-docs/raw/main/images/Light/ext4_4.png">
+    </picture>
+  </a>
+</p>
+
+
+<details>
+<summary>Альтернативный способ — форматирование накопителя на ПК</summary>
+
+Если вы предпочитаете подготовить накопитель заранее или по каким-либо причинам не можете воспользоваться встроенными средствами форматирования интернет-центра, можно выполнить эту операцию на компьютере с Windows с помощью сторонних программ.
+
+Для этого подойдут бесплатные версии **Paragon Partition Manager Free** или **[AOMEI Partition Assistant Standard Edition](https://www.aomeitech.com/pa/standard.html)**.
 
 Приведем пример форматирования накопителя в **Paragon Partition Manager Free**:
 
@@ -181,6 +230,11 @@ https://support.keenetic.ru/eaeu/ultra/kn-1811/ru/20978-preparing-a-usb-drive-as
 
 > **Важно!** *Накопитель с файловой системой EXT4 нельзя использовать в ОС Windows. Если нужно подключить накопитель с EXT4 в Windows, можно воспользоваться специальным драйвером [ext2fsd](https://www.ext2fsd.com/), разработанным сообществом открытого программного обеспечения для файловых систем семейства ext.*
 <br>
+
+
+---
+
+</details>
 
 <details>
 <summary>Как отформатировать USB накопитель под macOS</summary>
